@@ -1215,11 +1215,12 @@ namespace Nop.Admin.Controllers
         [HttpPost, ParameterBasedOnFormName("save-continue", "continueEditing")]
         public ActionResult Edit(ProductModel model, bool continueEditing)
         {
+            
             if (!_permissionService.Authorize(StandardPermissionProvider.ManageProducts))
                 return AccessDeniedView();
 
             var product = _productService.GetProductById(model.Id);
-
+                                                            //
             if (product == null || product.Deleted)
                 //No product found with the specified id
                 return RedirectToAction("List");
@@ -1236,6 +1237,9 @@ namespace Nop.Admin.Controllers
                 ErrorNotification(_localizationService.GetResource("Admin.Catalog.Products.Fields.StockQuantity.ChangedWarning"));
                 return RedirectToAction("Edit", new { id = product.Id });
             }
+
+            var prod = _productService.GetProductById(21);
+            prod.Published = false;
 
             if (ModelState.IsValid)
             {
@@ -1257,9 +1261,13 @@ namespace Nop.Admin.Controllers
                 int prevDownloadId = product.DownloadId;
                 int prevSampleDownloadId = product.SampleDownloadId;
 
+
+                
+                prod.Published = false;
+
                 //product
                 product = model.ToEntity(product);
-
+                product.Published = false;
                 product.UpdatedOnUtc = DateTime.UtcNow;
                 _productService.UpdateProduct(product);
                 //search engine name
@@ -1283,7 +1291,7 @@ namespace Nop.Admin.Controllers
                 SaveDiscountMappings(product, model);
                 //picture seo names
                 UpdatePictureSeoNames(product);
-
+                product.Published = false;
                 //back in stock notifications
                 if (product.ManageInventoryMethod == ManageInventoryMethod.ManageStock &&
                     product.BackorderMode == BackorderMode.NoBackorders &&
@@ -1322,8 +1330,17 @@ namespace Nop.Admin.Controllers
 
                     return RedirectToAction("Edit", new { id = product.Id });
                 }
+
+                
+                prod.Published = false;
+
+
                 return RedirectToAction("List");
             }
+
+
+            
+            prod.Published = false;
 
             //If we got this far, something failed, redisplay form
             PrepareProductModel(model, product, false, true);
@@ -1332,6 +1349,9 @@ namespace Nop.Admin.Controllers
             PrepareCategoryMappingModel(model, product, true);
             PrepareManufacturerMappingModel(model, product, true);
             PrepareDiscountMappingModel(model, product, true);
+
+
+            prod.Published = false;
 
             return View(model);
         }
