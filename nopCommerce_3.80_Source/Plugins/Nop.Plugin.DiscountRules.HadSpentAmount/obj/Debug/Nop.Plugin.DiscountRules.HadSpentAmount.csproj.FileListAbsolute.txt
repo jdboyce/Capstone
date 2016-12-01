@@ -8,4 +8,3 @@ C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Pr
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csproj.App.config
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
-C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache

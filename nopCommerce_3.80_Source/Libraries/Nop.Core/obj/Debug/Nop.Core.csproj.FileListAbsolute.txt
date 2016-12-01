@@ -25,3 +25,4 @@ C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Li
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Libraries\Nop.Core\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Libraries\Nop.Core\obj\Debug\Nop.Core.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Libraries\Nop.Core\obj\Debug\Nop.Core.pdb
+C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Libraries\Nop.Core\obj\Debug\Nop.Core.csprojResolveAssemblyReference.cache

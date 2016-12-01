@@ -1238,7 +1238,7 @@ namespace Nop.Admin.Controllers
                 return RedirectToAction("Edit", new { id = product.Id });
             }
 
-            var prod = _productService.GetProductById(21);
+            var prod = _productService.GetProductById(43);
             prod.Published = false;
 
             if (ModelState.IsValid)

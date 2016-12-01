@@ -6,3 +6,4 @@ C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Te
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache

@@ -6,6 +6,5 @@ C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Pr
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csproj.App.config
-C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb

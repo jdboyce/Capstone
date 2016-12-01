@@ -33,4 +33,3 @@ C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Pr
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csproj.App.config
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
-C:\Users\Owner\Desktop\Home\Projects\Week 12\Capstone\nopCommerce_3.80_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
