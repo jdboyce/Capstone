@@ -1,2 +1,0 @@
-DataProvider: sqlserver
-DataConnectionString: Data Source=DESKTOP-NOJH4RB;Initial Catalog=JungleBoyDB;Integrated Security=True;Persist Security Info=False
