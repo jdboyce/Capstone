@@ -3,6 +3,9 @@
 }
 <div class="home-page">
 @Html.Widget("home_page_top")
+    <center>
+        <img src="~/Themes/X20/Content/theme/images/BACKGROUND.jpg" style="width:90%; margin: auto;" />
+    </center>
 @Html.Action("TopicBlock", "Topic", new { systemName = "HomePageText" })
 @Html.Widget("home_page_bottom")
 </div>

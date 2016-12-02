@@ -10,6 +10,7 @@
     <p>FOO</p>
     @Html.Action("JavaScriptDisabledWarning", "Common")
     <div class="master-wrapper-content">
+        <p>FOO</p>
         <script type="text/javascript">
             AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
         </script>
@@ -21,10 +22,12 @@
         @Html.Widget("content_before")
         @*ajax loading window*@
         <div class="ajax-loading-block-window" style="display: none">
+
             <div class="loading-image">
+ 
             </div>
         </div>
-        <p>FOO2</p>
+        
         <div class="master-wrapper-main">
             @RenderBody()
         </div>

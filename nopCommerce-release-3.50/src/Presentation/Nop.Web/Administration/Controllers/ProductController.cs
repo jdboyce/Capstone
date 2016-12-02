@@ -1070,7 +1070,7 @@ namespace Nop.Admin.Controllers
 
 
 
-                var prod = _productService.GetProductById(1);
+                //var prod = _productService.GetProductById(1);
 
 
                 if (searchURL != null && searchTerm != null)
@@ -1081,41 +1081,16 @@ namespace Nop.Admin.Controllers
 
                     if (matches > 0)
                     {
-                        prod.Published = false;
+                        product.Published = false;
                     }
                     else
                     {
-                        prod.Published = true;
+                        product.Published = true;
                     }
                 }
 
-
-
-
-
-
-
-
-
                 _productService.UpdateProduct(product);
                 _productService.UpdateHasDiscountsApplied(product);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 //back in stock notifications
                 if (product.ManageInventoryMethod == ManageInventoryMethod.ManageStock &&

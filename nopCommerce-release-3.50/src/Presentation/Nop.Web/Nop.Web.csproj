@@ -1917,6 +1917,9 @@
     <Content Include="Themes\DefaultClean\Content\images\progress-step-inactive.gif" />
     <Content Include="Themes\DefaultClean\Content\styles.css" />
     <Content Include="Themes\print.css" />
+    <Content Include="Themes\X20\Content\theme\images\BACKGROUND.jpg" />
+    <Content Include="Themes\X20\Content\theme\images\BACKGROUNDxx.jpg" />
+    <Content Include="Themes\X20\Content\theme\images\BACKGROUNDx.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

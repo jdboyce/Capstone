@@ -38,6 +38,9 @@
             $('#ph-password-@Model.Id #password-@Model.Id').select().focus();
         });
     </script>
+
+
+
     <div class="topic-password" id="ph-password-@Model.Id">
         @using (Html.BeginRouteForm("TopicAuthenticate"))
         {
@@ -56,9 +59,10 @@
     </div>
     <div class="topic-html-content" id="ph-topic-@Model.Id">
         <div id="ph-title-@Model.Id">
-            <div class="topic-html-content-title">
-                <h2 class="topic-html-content-header">
-                    @Model.Title</h2>
+            <div class="topic-html-content-title"><p>FOOOO</p>
+                @*<h2 class="topic-html-content-header">
+                
+                    @Model.Title</h2>*@
             </div>
         </div>
         <div class="topic-html-content-body">
@@ -72,8 +76,8 @@ else
         @if (!String.IsNullOrEmpty(Model.Title))
         {
             <div class="topic-html-content-title">
-                <h2 class="topic-html-content-header">
-                    @Model.Title</h2>
+                @*<h2 class="topic-html-content-header">
+                    @Model.Title</h2>*@
             </div>
         }
         <div class="topic-html-content-body">
